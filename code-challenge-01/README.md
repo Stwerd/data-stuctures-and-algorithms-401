@@ -4,7 +4,7 @@ My task is to take in array, and without using pre-existing prototype functions 
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-![Whiteboard01](../images/CodeChallenge01-WhiteBoard.PNG)
+![Whiteboard01](../images/CC01-WhiteBoard.PNG)
 
 ## Approach & Efficiency
 <!-- What approach did you take? Discuss Why. What is the Big O space/time for this approach? -->
