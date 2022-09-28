@@ -9,3 +9,5 @@
 ## [Code Challenge 05](./code-challenge-05/README.md)
 
 ## [Code Challenge 06](./code-challenge-06/README.md)
+
+## [Code Challenge 07](./code-challenge-07/README.md)

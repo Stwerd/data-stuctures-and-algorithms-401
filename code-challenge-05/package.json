@@ -1,7 +1,7 @@
 {
   "name": "code-challenge-05",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Challenge",
   "main": "linkedlist.js",
   "scripts": {
     "test": "jest --verbose --coverage"
@@ -11,5 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^29.0.3"
-  }
+  },
+  "devDependencies": {}
 }
