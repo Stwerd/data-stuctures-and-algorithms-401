@@ -3,7 +3,7 @@
 const LinkedList = require('./linkedlist.js');
 
 describe('testing the Linked List data structure', () => {
-  
+
   test('Can successfully instantiate an empty linked list', () => {
     let list = new LinkedList;
     expect(list.head).toEqual(null);
