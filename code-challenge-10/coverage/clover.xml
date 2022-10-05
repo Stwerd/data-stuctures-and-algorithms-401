@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1664929093058" clover="3.2.0">
+  <project timestamp="1664929093058" name="All files">
+    <metrics statements="56" coveredstatements="22" conditionals="18" coveredconditionals="6" methods="11" coveredmethods="6" elements="85" coveredelements="34" complexity="0" loc="56" ncloc="56" packages="1" files="2" classes="2"/>
+    <file name="linkedlists.js" path="/home/jacko7557/projects/401/data-stuctures-and-algorithms-401/code-challenge-10/linkedlists.js">
+      <metrics statements="35" coveredstatements="3" conditionals="10" coveredconditionals="0" methods="6" coveredmethods="1"/>
+      <line num="5" count="11" type="stmt"/>
+      <line num="6" count="11" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="26" count="0" type="stmt"/>
+      <line num="28" count="0" type="stmt"/>
+      <line num="32" count="0" type="stmt"/>
+      <line num="33" count="0" type="stmt"/>
+      <line num="34" count="0" type="stmt"/>
+      <line num="35" count="0" type="stmt"/>
+      <line num="36" count="0" type="stmt"/>
+      <line num="38" count="0" type="stmt"/>
+      <line num="43" count="0" type="stmt"/>
+      <line num="44" count="0" type="stmt"/>
+      <line num="52" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="53" count="0" type="stmt"/>
+      <line num="54" count="0" type="stmt"/>
+      <line num="55" count="0" type="stmt"/>
+      <line num="56" count="0" type="stmt"/>
+      <line num="57" count="0" type="stmt"/>
+      <line num="58" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="60" count="0" type="stmt"/>
+      <line num="61" count="0" type="stmt"/>
+      <line num="63" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="64" count="0" type="stmt"/>
+      <line num="65" count="0" type="stmt"/>
+      <line num="68" count="0" type="stmt"/>
+      <line num="71" count="0" type="stmt"/>
+      <line num="75" count="1" type="stmt"/>
+    </file>
+    <file name="queue.js" path="/home/jacko7557/projects/401/data-stuctures-and-algorithms-401/code-challenge-10/queue.js">
+      <metrics statements="21" coveredstatements="19" conditionals="8" coveredconditionals="6" methods="5" coveredmethods="5"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="8" count="6" type="stmt"/>
+      <line num="9" count="6" type="stmt"/>
+      <line num="16" count="11" type="stmt"/>
+      <line num="17" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="18" count="5" type="stmt"/>
+      <line num="19" count="5" type="stmt"/>
+      <line num="21" count="6" type="stmt"/>
+      <line num="22" count="6" type="stmt"/>
+      <line num="31" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="32" count="0" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="43" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="44" count="0" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+      <line num="52" count="15" type="cond" truecount="2" falsecount="0"/>
+      <line num="53" count="9" type="stmt"/>
+      <line num="55" count="6" type="stmt"/>
+      <line num="61" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

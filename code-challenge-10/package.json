@@ -1,0 +1,15 @@
+{
+  "name": "code-challenge-10",
+  "version": "1.0.0",
+  "description": "`Stacks` and `queues` are linear and dynamic data structures that contain `Nodes`. `Stacks` are FiLo and `Queues` are FiFo.",
+  "main": "linkedlists.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.1.2"
+  }
+}
