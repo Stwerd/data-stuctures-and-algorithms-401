@@ -13,3 +13,9 @@
 ## [Code Challenge 07](./code-challenge-07/README.md)
 
 ## [Code Challenge 08](./code-challenge-08/README.md)
+
+## [Code Challenge 10](./code-challenge-10/README.md)
+
+## [Code Challenge 11](./code-challenge-11/README.md)
+
+## [Code Challenge 12](./code-challenge-12/README.md)
