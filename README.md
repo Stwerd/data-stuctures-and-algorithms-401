@@ -20,4 +20,9 @@
 
 ## [Code Challenge 12](./code-challenge-12/README.md)
 
-## [Code Challenge 15](./trees/README.md)
+## [Code Challenge 15](./Tree/README.md)
+
+## [Code Challenge 16](./Tree/README.md)
+
+## [Code Challenge 17](./Tree/README.md)
+

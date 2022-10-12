@@ -73,4 +73,14 @@ describe('Testing the abilities of my Binary Tree', () => {
     tree.add(13);
     expect(tree.getMax()).toEqual(20);
   });
-})
+  test('\"Happy Path\" usage of breadth-first method of binary tree',()=> {
+    let tree = new BinarySearchTree();
+    tree.add(7);
+    tree.add(5);
+    tree.add(6);
+    tree.add(10);
+    tree.add(8);
+    tree.add(13);
+    expect(tree.breadthFirst()).toEqual([7, 5, 10, 6, 8, 13]);
+  });
+});
