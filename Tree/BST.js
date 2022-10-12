@@ -1,5 +1,7 @@
 'use strict';
 
+let Queue = require('./queue.js');
+
 class Node {
   constructor(value) {
     this.value = value;
@@ -60,6 +62,25 @@ class BinaryTree {
       }
     }
     return max;
+  }
+
+  breadthFirst(){
+    let arr = [];
+    let current = this.root;
+    let queue = new Queue();
+    queue.enqueue(current)
+      while(!queue.isEmpty()){
+        let current = queue.dequeue();
+        console.log('Made it inside the loop!', current);
+        arr.push(current.value);
+        if(current.left){
+          queue.enqueue(current.left);
+        }
+        if(current.right){
+          queue.enqueue(current.right);
+        }
+      }
+    return arr;
   }
 }
 

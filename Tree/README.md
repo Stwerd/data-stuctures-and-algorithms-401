@@ -86,3 +86,27 @@ tree.left.value = 3
 tree.left.left = new Node(9)
 
 tree.getMax = 9;
+
+## Challenge Summary CC17
+
+Code Challenge 17
+Returns a array of the tree values in the order that they were encountered.
+
+## Whiteboard Process CC17
+
+![CC17](/images/CC17.png)
+
+## Approach & Efficiency CC17
+
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+I took a linear aproach and used a queue to add my tree to a queue from left to right, and pop and add the childs to the end of the queue
+It should have linear time, so O(n)
+
+It should have a space the same size as the width of the tree
+So O(w)
+
+## Solution CC17
+<!-- Show how to run your code, and examples of it in action -->
+
+My solution is perfect and without flaws, to run it you simply call on your instance of a binarySearchTree or binaryTree ".breadthFirst()" and it will return the arr of order from top down
