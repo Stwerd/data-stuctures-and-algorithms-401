@@ -45,7 +45,7 @@ I took a recursive approach to return and go through each of the traversals, whi
 
 ## API
 <!-- Description of each method publicly available in each of your trees -->
-![CC15](/images/CC15.jpg)
+![CC15](images/CC15.jpg)
 
 Add
 Arguments: value  
