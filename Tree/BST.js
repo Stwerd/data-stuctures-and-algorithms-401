@@ -44,10 +44,23 @@ class BinaryTree {
     //goes all the way to the left
     this.postOrder(node.right, arr);
     // adds left most node
-    arr.push(node.value + " ");
+    arr.push(node.value);
     //finally gets the right side
     this.postOrder(node.left, arr);
   };
+
+  getMax(){
+    let arr = [];
+    this.postOrder(this.root, arr);
+    let max = arr[0];
+    for(let i in arr){
+      console.log(i);
+      if(max < arr[i]){
+        max = arr[i];
+      }
+    }
+    return max;
+  }
 }
 
 

@@ -1,7 +1,7 @@
 # Trees
 
-## Challenge
-<!-- Description of the challenge -->
+## Challenge 15
+
 ### Node
 
     Create a Node class that has properties for the value stored in the node, the left child node, and the right child node.
@@ -59,3 +59,30 @@ pre order
 in order
 post order
 Each depth first traversal method should return an array of values, ordered appropriately.
+
+## Challenge 16
+
+Create a function called getMax which is method of binary trees and returns the largest value stored in the tree
+
+## Whiteboard Process
+<!-- Embedded whiteboard image -->
+![CC16](images/CC16.png)
+
+## Approach & Efficiency for GetMax
+
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+I took a recursive approach to put all the items into an array first, and then if another recursive approach to find the max, by going thru the array piece by piece
+
+## Solution
+<!-- Show how to run your code, and examples of it in action -->
+
+npm init as well as npm i  
+
+to run the getMax, create a new Binary Tree, add random variables to the left and right side, the run BT.getMax, and it should return the max number
+
+let tree = new BinaryTree();
+tree.right.value = 6
+tree.left.value = 3
+tree.left.left = new Node(9)
+
+tree.getMax = 9;
