@@ -87,6 +87,12 @@ tree.left.left = new Node(9)
 
 tree.getMax = 9;
 
+
+
+-----------------------------------------------------------------------------------------
+
+
+
 ## Challenge Summary CC17
 
 Code Challenge 17
@@ -100,7 +106,7 @@ Returns a array of the tree values in the order that they were encountered.
 
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 
-I took a linear aproach and used a queue to add my tree to a queue from left to right, and pop and add the childs to the end of the queue
+I took a linear approach and used a queue to add my tree to a queue from left to right, and pop and add the child's to the end of the queue
 It should have linear time, so O(n)
 
 It should have a space the same size as the width of the tree
@@ -110,3 +116,26 @@ So O(w)
 <!-- Show how to run your code, and examples of it in action -->
 
 My solution is perfect and without flaws, to run it you simply call on your instance of a binarySearchTree or binaryTree ".breadthFirst()" and it will return the arr of order from top down
+
+
+-----------------------------------------------------------------------------------------
+
+## Challenge 18 - A Fizz Buzz Tree
+
+Write a function that takes in a tree and changes the values divisble by 3 to Fizz, 5 to Buzz and by both to FizzBuzz.
+
+## WhiteBoard Process for 18
+
+![UML](/images/fizzBuzzTree.jpg)
+
+## Approach and Efficient for 18
+
+My approach was my new favourite solution for binary and kary trees which is to enqueue it. I queued all my items, if it fits the fizzbuzz bill, it changes it to fizz +/ buzz. I did a while loop, and the size of the function is the width of the tree.
+
+## Solution for 18
+
+The module is located in 'challenge-01' directory in './lib/trees/'.
+
+To use the module you will also need to require in the Node Module (./lib/trees/node.js) and the Binary Tree Module (./lib/trees/binary_tree.js);
+
+Big O - Time O(n) Space O(h) h being height of tree 

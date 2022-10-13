@@ -2,6 +2,8 @@
 
 const BinarySearchTree = require('../BST.js')
 
+const { KaryTree, fizzBuzzTree } = require('../k-aryTree.js');
+
 describe('Testing the abilities of my Binary Tree', () => {
   test('Can successfully instantiate an empty tree', () => {
     //Not fucking do a empty binary tree, if you make it, it needs to have a head value get wrecked please.
@@ -50,7 +52,7 @@ describe('Testing the abilities of my Binary Tree', () => {
     tree.add(2);
     let arr = [];
     tree.postOrder(tree.root, arr)
-    expect(arr).toEqual([2,1,0]);
+    expect(arr).toEqual([2, 1, 0]);
   });
   test('Returns true 	false for the contains method, given an existing or non-existing node value', () => {
     //Do something
@@ -73,7 +75,7 @@ describe('Testing the abilities of my Binary Tree', () => {
     tree.add(13);
     expect(tree.getMax()).toEqual(20);
   });
-  test('\"Happy Path\" usage of breadth-first method of binary tree',()=> {
+  test('\"Happy Path\" usage of breadth-first method of binary tree', () => {
     let tree = new BinarySearchTree();
     tree.add(7);
     tree.add(5);
@@ -83,4 +85,13 @@ describe('Testing the abilities of my Binary Tree', () => {
     tree.add(13);
     expect(tree.breadthFirst()).toEqual([7, 5, 10, 6, 8, 13]);
   });
+  test('Makes sure my fizzbuzz function works', () => {
+    let tree = new KaryTree();
+    tree.add(5, 3);
+    tree.add(5, 1);
+    tree.add(20, 0);
+    tree.add(3, 0);
+    let test = fizzBuzzTree(tree).toJson();
+    expect(test).toEqual(["Buzz", "Buzz", "Buzz", "Fizz", "Buzz"]);
+  })
 });
